@@ -4,6 +4,7 @@ pragma solidity >=0.8.8;
 /**
  * @title Interface for OrderBook
  */
+
 interface IOrderBook {
     struct Order {
         address maker;
